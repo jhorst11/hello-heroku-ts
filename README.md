@@ -34,3 +34,4 @@ Prettier is run as a pre-commit script, I also like to format on save and paste:
 "editor.formatOnSave": true,
 "editor.formatOnPaste": true,
 ``` 
+
