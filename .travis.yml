@@ -1,5 +1,12 @@
 language: node_js
 node_js:
-  - 8
+- 8
 script:
-  - "npm run build"
+- yarn build
+deploy:
+  provider: heroku
+  local_dir: build
+  api_key:
+    secure: $herokuToken
+  app:
+    master: hello-heroku-ts
